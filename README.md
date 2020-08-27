@@ -21,7 +21,7 @@ git clone https://github.com/everuner/near_warchest.git
 
 ## Usage
 
-1. First, adapt the `const.py` file with your credentials and your preferred strategy. You must fok this repository to your account and edit 'const.py' at the top of at the top of the page press pencil on it
+1. First, adapt the `const.py` file with your credentials and your preferred strategy. You must fork this repository to your account and edit 'const.py' . Just press a pencil at the top of the page
 2. Make the bot run as a service
    1) `nano /etc/systemd/system/warchest_bot.service`
    2. Paste 
