@@ -5,10 +5,10 @@ The warchest is a Python script for monitoring and adapting your stake to make s
 ## Requirements
 
 This bot requires:
-- near-shell to be installed - If you haven't done it run `npm install -g near-shell
-` or check [here](https://github.com/near/near-shell)
+- near-shell to be installed - If you haven't done it run `npm install -g near-cli
+` or check [here](https://github.com/near/near-cli)
 - python 3.6+ installed - to check run `whereis python3`
-- near-shell needs to be logged in
+- near-cli needs to be logged in
 
 (It's the easiest to run this bot as service on your machine that also runs the validator node) 
 
@@ -16,12 +16,12 @@ This bot requires:
 ## Installation
 
 ```
-git clone https://github.com/eorituz/near_warchest.git
+git clone https://github.com/everuner/near_warchest.git
 ```
 
 ## Usage
 
-1. First, adapt the `const.py` file with your credentials and your preferred strategy.
+1. First, adapt the `const.py` file with your credentials and your preferred strategy. You must fok this repository to your account and edit 'const.py' at the top of at the top of the page press pencil on it
 2. Make the bot run as a service
    1) `nano /etc/systemd/system/warchest_bot.service`
    2. Paste 
@@ -36,7 +36,7 @@ git clone https://github.com/eorituz/near_warchest.git
    Restart=always
    RestartSec=1
    User=root
-   ExecStart=/PATH/TO/python3.6 /PATH/TO/near_warchest/warchest.py
+   ExecStart=/YOUR PATH/YOUR TO/python3.6 /YOUR PATH/YOUR TO/near_warchest/warchest.py
 
    [Install]
    WantedBy=multi-user.target
