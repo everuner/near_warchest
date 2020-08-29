@@ -1,5 +1,5 @@
 # The stake pool id that should be managed
-stake_pool_id = "takeittothemoon.fuckit.betanet"
+stake_pool_id = "stakewarspools.fuckit.betanet"
 
 # Your account id with funds
 # NOTE the bot requires you to already have near deposited to the stake pool
